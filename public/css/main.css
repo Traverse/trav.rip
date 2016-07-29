@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+
+    height: 100%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: url(/img/demonsaur.gif) no-repeat 50% #000;
+    background-size: contain;
+
+    min-height: 100%;
+}
+
+h1 {
+    color: #fff;
+    font-family: "Permanent Marker";
+    font-size: 168px;
+
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.cell {
+    background: url(/img/demonsaur.gif) no-repeat 50% #000;
+    background-size: contain;
+
+    float: left;
+
+    height: 33.33333vh;
+    width: 33.33333%;
+}
